@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    background-color: lightgray;
+    margin-left: 400px;
+    background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?cs=srgb&dl=background-canvas-close-up-1020320.jpg&fm=jpg)
+    
+}
+
+h1 {
+    width: 300px;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-top-style: inset;
+    color: #dddddd;
+    background-color: #4aaaa5;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+}
+
+#info {
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+
+.box {
+    border: inset;
+    color: #777;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    width: 960px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.footer {
+    
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 50px;
+}
+
+header {
+    background-color: #ffffff;
+    width: 1057px;
+    margin-right: 960px;
+}
+
+hr {
+    width: 100%;
+    color: #777;
+    }
+
+.break {
+    margin-top: 0%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 886px;
+    padding-top: 0%;
+}
+
+@media only screen and (max-width: 640px)
+
+@media only screen and (max-width: 768px)
+
+@media only screen and (max-width: 980px)

@@ -1,0 +1,123 @@
+#name {
+    width: 300px;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-top-style: inset;
+    background-color: #4aaaa5;
+    color: aliceblue;
+    margin-left: 430px;
+    padding-left: 3%;
+    
+}
+
+#info {
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: auto;
+    margin-left: 63%;
+}
+
+p {
+    color: #4aaaa5;
+    font-size: 50px;
+    padding-left: 5%;
+}
+
+.box {
+    border: inset;
+    color: #777;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 425px;
+    width: 960px;
+    height: 1000px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    background-color: lightgray;
+    background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?cs=srgb&dl=background-canvas-close-up-1020320.jpg&fm=jpg)
+    }
+
+
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    top: 100px;
+    background-color: #666666;
+    text-align: center;
+}
+
+.h4 {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.Relative {
+    position: relative;
+    left: 150px;
+    padding-right: 15%;
+    height: 200px;
+}
+
+.container {
+    position: relative;
+}
+
+.footer {
+    width: 100%;
+    background-color: #666666;
+    margin-top: 1200px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    color: #777777;
+    text-align: center;
+    height: 50px;
+    font-size: 10px;
+    
+}
+
+h4 {
+    width: 95%;
+    color: #777777;
+    
+}
+
+.trivia {
+    margin-right: 155px;
+    margin-top: 10%;
+    padding-top: 10%;
+
+}
+
+.hangman {
+    margin-top: 5%;
+    padding-top: 5%;
+    float: left;
+}
+
+.break {
+    margin-top: 118px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    margin-bottom: 0%;
+}

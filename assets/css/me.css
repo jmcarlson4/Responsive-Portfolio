@@ -1,0 +1,103 @@
+body {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #dddddd;
+    background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?cs=srgb&dl=background-canvas-close-up-1020320.jpg&fm=jpg)
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 140px;
+    font-size: x-large;
+    color: #777777;
+    float: right;
+     
+}
+
+#info {
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 450px;
+}
+
+#me {
+    color: #4aaaa5;
+   
+}
+
+#name {
+    width: 300px;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-top-style: inset;
+    background-color: #4aaaa5;
+    color: aliceblue;
+    padding-left: 20px;
+    margin-left: 300px;
+    
+}
+
+#picture {
+    float: left;
+
+}
+
+
+img {
+    float: left;
+    border: 1px solid black;
+    margin: 5px 10px 10px 0px;
+}
+
+#entire {
+    border-top: solid;
+    color: #dddddd;
+    
+}
+
+.box {
+    border: inset;
+    color: #777;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 500px;
+    margin-left: 300px;
+    width: 960px;
+    height: 600px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.footer {
+    width: 100%;
+    background-color: #666666;
+    margin-top: 350px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    color: #777777;
+    text-align: center;
+    height: 65px;
+    font-size: 10px;
+    
+}
+
+hr {
+    width: 100%;
+    color: #777;
+    
+}
+.break {
+    margin-top: 650px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
