@@ -75,19 +75,13 @@ hr {
     padding-top: 0%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 102px;
-  }
 
 @media only screen and (max-width: 640px) {
     body {
         background-color: blanchedalmond;
+    }
+    header {
+        position: static;
     }
 }
 
