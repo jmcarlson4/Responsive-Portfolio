@@ -101,10 +101,23 @@ hr {
     position: absolute;
     left: 0%;
 }
+header {
+    background-color: #ffffff;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
 
 @media only screen and (max-width: 640px) {
     body {
-        background-color: blanchedalmond;
+        
     }
 }
 
