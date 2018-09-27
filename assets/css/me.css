@@ -41,6 +41,7 @@ p{
 
 #picture {
     float: left;
+    position: relative;
 
 }
 
@@ -106,22 +107,19 @@ header {
 }
 
 
-@media only screen and (max-width: 640px) {
-    body {
-        
-    }
-    header {
+@media (min-width:480px) and (max-width: 640px) {
+        header {
         position: static;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
     body {
         background-color: beige;
     }
 }
 
-@media only screen and (max-width: 980px) {
+@media (min-width: 769px) and (max-width: 980px) {
     body {
         background-color: antiquewhite;
     }
