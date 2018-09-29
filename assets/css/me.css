@@ -1,21 +1,4 @@
-@media only screen and (max-width: 640px) {
-    header {
-        position: static !important;
-    }
-}
 
-@media only screen and (max-width: 768px) {
-    .break {
-        background-color: red !important;
-        text-emphasis-color: blue;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    body {
-        background-color: blue !important;
-    }
-}
 
 body {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -99,7 +82,7 @@ h2 {
 .footer {
     width: 100%;
     background-color: #666666;
-    margin-top: 350px;
+    margin-top: 600px;
     position: absolute;
     left: 0%;
     bottom: 0%;
@@ -116,7 +99,7 @@ hr {
     
 }
 .break {
-    margin-top: 650px;
+    margin-top: 500px;
     width: 100%;
     position: absolute;
     left: 0%;
@@ -127,4 +110,23 @@ header {
 
 #paragraph {
        float: inherit;
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: static !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .break {
+        background-color: red !important;
+        text-emphasis-color: blue;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: blue !important;
+    }
 }
